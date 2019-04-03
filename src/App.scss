@@ -1,0 +1,29 @@
+// 当前项目公共样式。（拷贝到其他项目未必能用）
+
+// 按钮连接
+.btn-link {
+  color: #1890ff;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  padding: 0;
+  border: none;
+  margin: 0;
+
+  &:hover {
+    color: #40a9ff;
+  }
+}
+
+.search-form {
+  .ant-form-item {
+    display: flex;
+    margin: 0;
+  }
+
+  .ant-form-item-control-wrapper {
+    flex: 1;
+  }
+}
